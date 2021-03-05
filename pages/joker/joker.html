@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <!------ Include the above in your HEAD tag ---------->
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+    <title>MPS - Batman</title>
+    <link rel="stylesheet" type="text/css" href="../../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../../css/legenda.css">
+    <style type="text/css">
+        body {
+            background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(0, 0, 0, 0.4)), url("./background.jpg");
+            background-attachment: fixed;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+            font-family: 'Arimo', Arial, sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Begin Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="../../index.html"> <img class="navbar-brand-cdapi" style="width: 40px;" src="../../src/icon.png"></a>
+        </div>
+        <a class="navbar-brand" href="../../index.html">MPS- Joker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <video class="video-joker" id="v" controls>
+                    <source src="./movies/joker.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="button col-md-4">
+                <button type="button" id="btnGrey" class="btn3d btn btn-default btn-lg"><span
+                        class="glyphicon glyphicon-download-alt"></span>Preto & Branco</button>
+                <button type="button" id="btnSepia" class="btn3d btn btn-default btn-lg"><span
+                        class="glyphicon glyphicon-download-alt"></span>Sepia</button>
+                <button type="button" id="btnSaturate" class="btn3d btn btn-default btn-lg"><span
+                        class="glyphicon glyphicon-download-alt"></span>Inverter</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <div class="col-md-12">
+        <canvas class="canvas" id="c" style="display: none"></canvas>
+        <div id="imgs"></div>
+    </div>
+    <hr>
+    <hr>
+    <footer>
+        <p>©Cavalcanti 2021</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="../../js/efeito.js"></script>
+
+    <script type="text/javascript" src="../../js/video.js"></script>
+    <html>
+
+    <head>
